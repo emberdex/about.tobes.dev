@@ -1,4 +1,5 @@
-import {Card, CardHeader, CardMedia, Divider, Grid, Link, Stack, Typography} from "@mui/material";
+import {Card, CardHeader, CardMedia, Grid, Stack, Typography} from "@mui/material";
+import profilePicture from './../../images/profile.jpg';
 
 function Jumbotron() {
     return (
@@ -24,7 +25,7 @@ function Jumbotron() {
                     <Card>
                         <CardMedia
                             component='img'
-                            image='/images/profile.jpg'
+                            image={profilePicture}
                             alt='Profile picture.'
                         />
                         <CardHeader
